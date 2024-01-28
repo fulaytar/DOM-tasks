@@ -39,3 +39,9 @@ span {
     border-radius: 8px;
     padding: 4px;
 }
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}

@@ -108,3 +108,31 @@ links.forEach(element => {
   }
 }) */
 
+
+// =====Розв'язок 8 задачі=====
+
+//const spans = document.querySelectorAll('span');
+//spans.forEach((element) => {
+  //element.addEventListener("click", addColor);
+
+  //через інлайн стилі
+/*   function addColor() {
+    if (element.style.backgroundColor !== "red") {
+      element.style.backgroundColor = "red";
+    } else{
+  element.style.backgroundColor="yellow"
+    }
+    
+  } */
+
+  //через  classList.add
+  //function addColor() {
+    //if (element.classList.contains("red")) {
+      //element.classList.remove("red");
+      //element.classList.add("yellow")
+    //} else {
+      //element.classList.remove("yellow");
+      //element.classList.add("red");
+    //}
+  //}
+//})
