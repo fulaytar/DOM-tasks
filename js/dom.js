@@ -98,3 +98,13 @@ addListItem(); */
 
 
 // =====Розв'язок 7 задачі=====
+
+/* const links = document.querySelectorAll('a');
+
+links.forEach(element => {
+  element.addEventListener("mouseenter", addTitle);
+  function addTitle() {
+    element.title="це посилання"
+  }
+}) */
+
