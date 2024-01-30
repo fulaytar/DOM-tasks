@@ -136,3 +136,45 @@ links.forEach(element => {
     //}
   //}
 //})
+
+
+// =====Розв'язок 9 задачі=====
+
+/* const list = document.getElementById('ol');
+const btn = document.getElementById('btn');
+
+btn.addEventListener("click", addListItem);
+
+
+function addListItem() {
+  const item = document.createElement("li");
+  item.textContent = "пункт";
+  list.insertAdjacentElement("beforeend", item);
+}
+
+list.addEventListener("click", addSymbol);
+
+function addSymbol(event) {
+  const item = event.target;
+  item.textContent += "!";
+} */
+
+// =====Розв'язок 10 задачі=====
+
+/* const passiveBtn = document.querySelector(".lock");
+const activeBnt = document.querySelector(".unlock")
+const input = document.getElementById('input');
+
+passiveBtn.addEventListener("click", inputOf);
+activeBnt.addEventListener("click", inputOn);
+
+function inputOf() {
+  //добавляємо атрибут із пустим значенням
+  input.setAttribute("disabled","");
+}
+
+function inputOn() {
+  //видаляємо атрибут
+  input.removeAttribute("disabled");
+}
+ */
