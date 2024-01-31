@@ -217,3 +217,51 @@ if (isNaN(value_1) || isNaN(value_2)) {
   }
   result.textContent = Number(value_1) + Number(value_2);
 }  */
+
+
+// =====Розв'язок 12 задачі=====
+
+/* 
+const inputs = document.querySelectorAll('input');
+const textInput = document.getElementById('test');
+
+inputs.forEach(element => {
+  element.addEventListener("blur", addTextInput);
+
+//функція присвоює текс і очищає інпут
+  function addTextInput() {
+    textInput.textContent = element.value;
+    element.value = "";
+  }
+})
+ */
+
+// =====Розв'язок 13 задачі=====
+
+/* const input = document.querySelector('input');
+const showKey = document.getElementById('show');
+console.log(input);
+
+input.addEventListener("keydown", addKey);
+
+function addKey(event) {
+  showKey.textContent = event.code;
+}
+ */
+
+// =====Розв'язок 14 задачі=====
+
+/* const input = document.querySelector('input');
+const showKey = document.getElementById('show');
+
+input.addEventListener("input", addKey);
+
+function addKey() {
+  if (input.value.length > 0) {
+    let inputText = input.value.trim();
+    showKey.textContent = inputText[inputText.length-1];
+  } else {
+    showKey.textContent="?"
+  }
+
+} */
