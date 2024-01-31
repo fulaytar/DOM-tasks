@@ -178,3 +178,42 @@ function inputOn() {
   input.removeAttribute("disabled");
 }
  */
+
+
+// =====Розв'язок 11 задачі=====
+
+/* const firstValue = document.getElementById('input1');
+const secondValue = document.getElementById('input2');
+const result = document.getElementById('result');
+const btn = document.getElementById('btn');
+
+//очистка від пробілів
+firstValue.addEventListener("blur", () => {
+  const valueClean = firstValue.value.trim();
+  firstValue.value = valueClean;
+})
+
+//очистка від пробілів
+secondValue.addEventListener("blur", () => { 
+  const valueClean = secondValue.value.trim();
+  secondValue.value = valueClean;
+})
+
+btn.addEventListener("click", calcNum);
+
+
+function calcNum() {
+  let value_1 = firstValue.value.trim();
+  let value_2 = secondValue.value.trim();
+
+  //перевірка чи були пробіли
+  if (value_1 === "" || value_2 === "") {
+  return alert("Value is not defined")
+}
+
+//перевірка чи це numbers
+if (isNaN(value_1) || isNaN(value_2)) {
+  return alert("Value is not a number");
+  }
+  result.textContent = Number(value_1) + Number(value_2);
+}  */
